@@ -1,0 +1,22 @@
+{
+  "name": "webdriverio-tests",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@wdio/cli": "^7.19.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./main.js --no-autoCompileOpts.autoCompile"
+  },
+  "dependencies": {
+    "@wdio/local-runner": "^7.19.3",
+    "@wdio/mocha-framework": "^7.19.3",
+    "@wdio/spec-reporter": "^7.19.1",
+    "chromedriver": "^100.0.0",
+    "expect": "^27.5.1",
+    "expect-webdriverio": "^3.2.1",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}

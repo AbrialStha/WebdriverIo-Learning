@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/mocha-framework",
+      "expect-webdriverio"
+    ],
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "dom"],
+    "allowSyntheticDefaultImports": true
+  }
+}
